@@ -1,12 +1,13 @@
 // Importaciones
+
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
-import { NavBar } from "./components/NavBar/NavBar";
+import { ResponsiveAppBar } from "./components/ResponsiveAppBar/ResponsiveAppBar";
 import "./styles/styles.scss";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <ResponsiveAppBar />
       <ItemListContainer greeting="Hola Coder!" />
     </>
   );
