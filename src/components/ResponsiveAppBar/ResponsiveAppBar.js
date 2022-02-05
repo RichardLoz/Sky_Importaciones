@@ -13,7 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
 const pages = ["Inicio", "Servicios", "Nosotros", "Contacto"];
-const settings = ["Perfil", "Cuenta", "Panel", "Salir"];
+const settings = ["Perfil", "Mis Compras", "Panel", "Salir"];
 
 export const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
